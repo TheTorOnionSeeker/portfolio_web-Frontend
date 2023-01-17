@@ -29,8 +29,13 @@
   color: midnightblue;
 }
 
+.App-header p {
+  background-color: #282c34;
+  color: rgb(208, 208, 231);
+}
+
 .App-link {
-  color: #61dafb;
+  color: #0e102e;
 }
 
 @keyframes App-logo-spin {
