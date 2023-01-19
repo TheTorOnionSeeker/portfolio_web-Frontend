@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../1985052.svg';
 import '../App.css';
 
-import { Route,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           <p>
             Click on my name to see more about me.
           </p>
-          <Link className="App-link" to={"/home"}>Guillermo Oscar Núñez</Link>
+          <Link className="App-link" to={"/details"}>Guillermo Oscar Núñez</Link>
         </header>
       </div>
     </>
